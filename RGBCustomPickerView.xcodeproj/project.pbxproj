@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		524A42461EB0628C004A5DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A42451EB0628C004A5DB1 /* AppDelegate.swift */; };
+		524A42481EB0628C004A5DB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A42471EB0628C004A5DB1 /* ViewController.swift */; };
+		524A424B1EB0628C004A5DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524A42491EB0628C004A5DB1 /* Main.storyboard */; };
+		524A424D1EB0628C004A5DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524A424C1EB0628C004A5DB1 /* Assets.xcassets */; };
+		524A42501EB0628C004A5DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524A424E1EB0628C004A5DB1 /* LaunchScreen.storyboard */; };
+		524A425B1EB0628C004A5DB1 /* RGBCustomPickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A425A1EB0628C004A5DB1 /* RGBCustomPickerViewTests.swift */; };
+		524A42661EB0628C004A5DB1 /* RGBCustomPickerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A42651EB0628C004A5DB1 /* RGBCustomPickerViewUITests.swift */; };
+		524A42741EB062C1004A5DB1 /* RGBPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A42731EB062C1004A5DB1 /* RGBPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		524A42571EB0628C004A5DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524A423A1EB0628C004A5DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524A42411EB0628C004A5DB1;
+			remoteInfo = RGBCustomPickerView;
+		};
+		524A42621EB0628C004A5DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524A423A1EB0628C004A5DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524A42411EB0628C004A5DB1;
+			remoteInfo = RGBCustomPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		524A42421EB0628C004A5DB1 /* RGBCustomPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBCustomPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524A42451EB0628C004A5DB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		524A42471EB0628C004A5DB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		524A424A1EB0628C004A5DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		524A424C1EB0628C004A5DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524A424F1EB0628C004A5DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		524A42511EB0628C004A5DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524A42561EB0628C004A5DB1 /* RGBCustomPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBCustomPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		524A425A1EB0628C004A5DB1 /* RGBCustomPickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBCustomPickerViewTests.swift; sourceTree = "<group>"; };
+		524A425C1EB0628C004A5DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524A42611EB0628C004A5DB1 /* RGBCustomPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBCustomPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		524A42651EB0628C004A5DB1 /* RGBCustomPickerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBCustomPickerViewUITests.swift; sourceTree = "<group>"; };
+		524A42671EB0628C004A5DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524A42731EB062C1004A5DB1 /* RGBPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524A423F1EB0628C004A5DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A42531EB0628C004A5DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A425E1EB0628C004A5DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		524A42391EB0628C004A5DB1 = {
+			isa = PBXGroup;
+			children = (
+				524A42441EB0628C004A5DB1 /* RGBCustomPickerView */,
+				524A42591EB0628C004A5DB1 /* RGBCustomPickerViewTests */,
+				524A42641EB0628C004A5DB1 /* RGBCustomPickerViewUITests */,
+				524A42431EB0628C004A5DB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		524A42431EB0628C004A5DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524A42421EB0628C004A5DB1 /* RGBCustomPickerView.app */,
+				524A42561EB0628C004A5DB1 /* RGBCustomPickerViewTests.xctest */,
+				524A42611EB0628C004A5DB1 /* RGBCustomPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524A42441EB0628C004A5DB1 /* RGBCustomPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				524A42451EB0628C004A5DB1 /* AppDelegate.swift */,
+				524A42731EB062C1004A5DB1 /* RGBPicker.swift */,
+				524A42471EB0628C004A5DB1 /* ViewController.swift */,
+				524A42491EB0628C004A5DB1 /* Main.storyboard */,
+				524A424C1EB0628C004A5DB1 /* Assets.xcassets */,
+				524A424E1EB0628C004A5DB1 /* LaunchScreen.storyboard */,
+				524A42511EB0628C004A5DB1 /* Info.plist */,
+			);
+			path = RGBCustomPickerView;
+			sourceTree = "<group>";
+		};
+		524A42591EB0628C004A5DB1 /* RGBCustomPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				524A425A1EB0628C004A5DB1 /* RGBCustomPickerViewTests.swift */,
+				524A425C1EB0628C004A5DB1 /* Info.plist */,
+			);
+			path = RGBCustomPickerViewTests;
+			sourceTree = "<group>";
+		};
+		524A42641EB0628C004A5DB1 /* RGBCustomPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				524A42651EB0628C004A5DB1 /* RGBCustomPickerViewUITests.swift */,
+				524A42671EB0628C004A5DB1 /* Info.plist */,
+			);
+			path = RGBCustomPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		524A42411EB0628C004A5DB1 /* RGBCustomPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524A426A1EB0628C004A5DB1 /* Build configuration list for PBXNativeTarget "RGBCustomPickerView" */;
+			buildPhases = (
+				524A423E1EB0628C004A5DB1 /* Sources */,
+				524A423F1EB0628C004A5DB1 /* Frameworks */,
+				524A42401EB0628C004A5DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGBCustomPickerView;
+			productName = RGBCustomPickerView;
+			productReference = 524A42421EB0628C004A5DB1 /* RGBCustomPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		524A42551EB0628C004A5DB1 /* RGBCustomPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524A426D1EB0628C004A5DB1 /* Build configuration list for PBXNativeTarget "RGBCustomPickerViewTests" */;
+			buildPhases = (
+				524A42521EB0628C004A5DB1 /* Sources */,
+				524A42531EB0628C004A5DB1 /* Frameworks */,
+				524A42541EB0628C004A5DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524A42581EB0628C004A5DB1 /* PBXTargetDependency */,
+			);
+			name = RGBCustomPickerViewTests;
+			productName = RGBCustomPickerViewTests;
+			productReference = 524A42561EB0628C004A5DB1 /* RGBCustomPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		524A42601EB0628C004A5DB1 /* RGBCustomPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524A42701EB0628C004A5DB1 /* Build configuration list for PBXNativeTarget "RGBCustomPickerViewUITests" */;
+			buildPhases = (
+				524A425D1EB0628C004A5DB1 /* Sources */,
+				524A425E1EB0628C004A5DB1 /* Frameworks */,
+				524A425F1EB0628C004A5DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524A42631EB0628C004A5DB1 /* PBXTargetDependency */,
+			);
+			name = RGBCustomPickerViewUITests;
+			productName = RGBCustomPickerViewUITests;
+			productReference = 524A42611EB0628C004A5DB1 /* RGBCustomPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524A423A1EB0628C004A5DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Shubh;
+				TargetAttributes = {
+					524A42411EB0628C004A5DB1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					524A42551EB0628C004A5DB1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 524A42411EB0628C004A5DB1;
+					};
+					524A42601EB0628C004A5DB1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 524A42411EB0628C004A5DB1;
+					};
+				};
+			};
+			buildConfigurationList = 524A423D1EB0628C004A5DB1 /* Build configuration list for PBXProject "RGBCustomPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 524A42391EB0628C004A5DB1;
+			productRefGroup = 524A42431EB0628C004A5DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524A42411EB0628C004A5DB1 /* RGBCustomPickerView */,
+				524A42551EB0628C004A5DB1 /* RGBCustomPickerViewTests */,
+				524A42601EB0628C004A5DB1 /* RGBCustomPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		524A42401EB0628C004A5DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A42501EB0628C004A5DB1 /* LaunchScreen.storyboard in Resources */,
+				524A424D1EB0628C004A5DB1 /* Assets.xcassets in Resources */,
+				524A424B1EB0628C004A5DB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A42541EB0628C004A5DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A425F1EB0628C004A5DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524A423E1EB0628C004A5DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A42481EB0628C004A5DB1 /* ViewController.swift in Sources */,
+				524A42741EB062C1004A5DB1 /* RGBPicker.swift in Sources */,
+				524A42461EB0628C004A5DB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A42521EB0628C004A5DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A425B1EB0628C004A5DB1 /* RGBCustomPickerViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A425D1EB0628C004A5DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A42661EB0628C004A5DB1 /* RGBCustomPickerViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		524A42581EB0628C004A5DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524A42411EB0628C004A5DB1 /* RGBCustomPickerView */;
+			targetProxy = 524A42571EB0628C004A5DB1 /* PBXContainerItemProxy */;
+		};
+		524A42631EB0628C004A5DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524A42411EB0628C004A5DB1 /* RGBCustomPickerView */;
+			targetProxy = 524A42621EB0628C004A5DB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		524A42491EB0628C004A5DB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524A424A1EB0628C004A5DB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		524A424E1EB0628C004A5DB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524A424F1EB0628C004A5DB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		524A42681EB0628C004A5DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		524A42691EB0628C004A5DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		524A426B1EB0628C004A5DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RGBCustomPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shubh.RGBCustomPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		524A426C1EB0628C004A5DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RGBCustomPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shubh.RGBCustomPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		524A426E1EB0628C004A5DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RGBCustomPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shubh.RGBCustomPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBCustomPickerView.app/RGBCustomPickerView";
+			};
+			name = Debug;
+		};
+		524A426F1EB0628C004A5DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RGBCustomPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shubh.RGBCustomPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBCustomPickerView.app/RGBCustomPickerView";
+			};
+			name = Release;
+		};
+		524A42711EB0628C004A5DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RGBCustomPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shubh.RGBCustomPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RGBCustomPickerView;
+			};
+			name = Debug;
+		};
+		524A42721EB0628C004A5DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RGBCustomPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shubh.RGBCustomPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RGBCustomPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		524A423D1EB0628C004A5DB1 /* Build configuration list for PBXProject "RGBCustomPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A42681EB0628C004A5DB1 /* Debug */,
+				524A42691EB0628C004A5DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524A426A1EB0628C004A5DB1 /* Build configuration list for PBXNativeTarget "RGBCustomPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A426B1EB0628C004A5DB1 /* Debug */,
+				524A426C1EB0628C004A5DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		524A426D1EB0628C004A5DB1 /* Build configuration list for PBXNativeTarget "RGBCustomPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A426E1EB0628C004A5DB1 /* Debug */,
+				524A426F1EB0628C004A5DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		524A42701EB0628C004A5DB1 /* Build configuration list for PBXNativeTarget "RGBCustomPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A42711EB0628C004A5DB1 /* Debug */,
+				524A42721EB0628C004A5DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524A423A1EB0628C004A5DB1 /* Project object */;
+}
