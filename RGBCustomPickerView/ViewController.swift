@@ -13,6 +13,8 @@ class ViewController: UIViewController,RGBPickerDelegate {
     @IBOutlet weak var viewReciever: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        RGBPicker.sharedInstance.delegate = self;
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -24,7 +26,6 @@ class ViewController: UIViewController,RGBPickerDelegate {
     @IBAction func openColorPicker(_ sender: Any) {
         
     
-        RGBPicker.sharedInstance.delegate = self;
         RGBPicker.sharedInstance.showcolorPicker()
 
         
