@@ -6,9 +6,13 @@ Swift implementation of RGB PickerView
 ## Usage
 
 
+     override func viewDidLoad() {
+           super.viewDidLoad()
+           RGBPicker.sharedInstance.delegate = self;
+           // Do any additional setup after loading the view, typically from a nib.
+    }
+    
     @IBAction func openColorPicker(_ sender: Any) {
-
-        RGBPicker.sharedInstance.delegate = self;
         RGBPicker.sharedInstance.showcolorPicker()
     }
     //will call when you select color value from picker 
